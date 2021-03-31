@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<title>Document</title>
+</head>
+
+<body>
+	
+    <nav class="navbar navbar-expand-sm p-3 navbar-light" style="background:hsl(225deg 99% 43%);">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#" style="font-size:2rem;"><i class="fa fa-bug" aria-hidden="true"> Navbar scroll</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarScroll">
+      <ul class="navbar-nav justify-content-between align-items-center  w-75  navbar-nav-scroll justify-content-end align-items-end" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active text-white dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Start</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Memo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white  dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           System
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+        <button class="button" style="background-color:white;border: none;color:blue;padding: 10px 20px;text-align: center;text-decoration: none;display: inline-block;margin: 4px 2px;cursor: pointer;border-radius: 16px;"><h6> Pill Button   <span>   + </span></h6> </button>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-flex" style="height:80vh;width:100vw;background:hsl(225deg 99% 43%);opacity:0.8;
+  background-blend-mode:screen;background-repeat:no-repeat;background-size:100% 100%;position:relative;">
+  <div class="container" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)">
+   <div class="row">
+   	<div class="col-8 text-white">
+   		<h1>Find Nearby Attracation</h1> 
+   		<h5>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Hic, nulla.</h5>
+   	</div>
+   	<br>
+   	<div class="col-7 my-5 border-primary rounded-pill  justify-content-center align-items-center  text-center text-white shadow  rounded" style="font-size:1rem;background:blue;opacity:0.5;font-weight:50rem;">
+  <pre class="pt-3 text-light" style="color:white;"> Whar ary you looking for ? |  Locatiion         <i class="fa fa-map-marker" aria-hidden="true"></i> | All catogaries    <button type="button" class="btn btn-light text-dark rounded-pill" style="font-weight:3rem;">Search</button></pre> 
+   	</div>
+   </div>	
+  </div>
+</div>
+
+
+ <div class="container-flex">
+   	  <div class="row p-2 justify-content-center align-items-center">
+   	  	<div class="col-8 justify-content-center align-items-center  text-center mt-4 pt-5">
+   	  			<h1> Popular Catogaries </h1>
+   	  		<p> Browse The Most Desirable Catogaries </p>
+   	  	</div>
+   	  	<div class="col-13 justify-content-center align-items-center  text-center mt-4 pt-5">
+   	  		<img src="https://cdn1.goibibo.com/voy_ing/t_g/1de95162354211e5bbab001ec9b85d13.jfif" alt="" style="width:250px;height:250px;padding:5px;">
+   	  		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Barbieri_-_ViaSophia25668.jpg/1200px-Barbieri_-_ViaSophia25668.jpg" alt="" style="width:250px;height:250px;padding:5px;">
+   	  		<img src="https://dwkujuq9vpuly.cloudfront.net/news/wp-content/uploads/2020/05/When-should-shops-reopen_Main.jpg" alt="" style="width:250px;height:250px;padding:5px;">
+   	  		<img src="https://static.dw.com/image/54667813_101.jpg" alt="" style="width:250px;height:250px;padding:5px;">
+   	  		<img src="https://static01.nyt.com/images/2020/11/01/nyregion/01nyvirus-party-1/01nyvirus-party-1-mediumSquareAt3X.jpg" alt="" style="width:250px;height:250px;padding:5px;">
+   	  		<div class="container">
+   	  			<div class="row">
+   	  				<div class="col m-5">
+   	  					<i class="fa fa-adjust" aria-hidden="true"></i>
+   	  					<i class="fa fa-adjust" aria-hidden="true"></i>
+   	  					<i class="fa fa-adjust" aria-hidden="true"></i>
+   	  					<i class="fa fa-adjust" aria-hidden="true"></i>
+   	  					<i class="fa fa-adjust" aria-hidden="true"></i>
+   	  					<i class="fa fa-adjust" aria-hidden="true"></i>
+   	  				</div>
+   	  		        </div>
+   	  		        </div>
+   	  		        </div>
+   	              </div>
+   	              </div>
+
+
+<div class="container-flex bg-light">
+   	  <div class="row p-5 justify-content-center align-items-center ">
+   	  	<div class="col-8 justify-content-center align-items-center text-center">
+   	  	<h1> Most Visited Placeso </h1>
+   	  		<p> Browse The Most Desirable Catogaries </p>
+   	                </div>
+   	       
+   	         <div class="col-10 justify-content-center align-items-center text-center m-3">
+   	         	<div class="row col justify-content-center align-items-center text-center">
+   	         		<div class="col justify-content-center align-items-center text-center" >
+   	  	<div class="card shadow p-3 mb-5 bg-body rounded" >
+  <img src="https://ventsmagazine.com/wp-content/uploads/2020/11/Firekeepers-Casino-Hotel_54_990x660.jpg" class="card-img-top" alt="...">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text to build on the card title</p>
+  </div>
+</div>
+</div>
+	<div class="col">
+<div class="card shadow p-3 mb-5 bg-body rounded">
+  <img src="https://im.indiatimes.in/media/content/2016/Dec/hard-rock-cafe_1481096579.jpg" class="card-img-top" alt="...">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text to build on the card title </p>
+  </div>
+  </div>
+</div>
+<div class="col">
+<div class="card shadow p-3 mb-5 bg-body rounded" >
+  <img src="https://cdn-image.departures.com/sites/default/files/styles/responsive_900x600/public/1496685642/membership-bars_the-cocktail-club-andrew-cebulka_2000x1125.jpg?itok=jvKJp2CY" class="card-img-top" alt="...">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text to build on the card title</p>
+  </div>
+    </div>
+</div>
+<div class="col-8 text-center ">
+	    <i class="fa fa-circle" aria-hidden="true"></i>
+	    <i class="fa fa-circle" aria-hidden="true"></i>
+	   
+</div>
+</div>
+</div>	
+</div>
+</div>
+   	      <div class="container-flex" style="background:hsl(225deg 99% 43%);">
+   	      	<div class="row justify-content-center align-items-center">
+   	      		<div class="col-6 justify-content-center align-items-center text-center p-5 mt-4 text-white">
+   	      			<h1>Lorem ipsum dolor sit, amet.</h1>
+   	      			<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ab, sunt! Debitis sapiente praesentium voluptate quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sequi.</p>
+   	      		</div>
+   	      		<div class="col-10">
+   	      			<div class="row justify-content-center align-items-center">
+   	      				<div class="col text-center text-white">
+   	      			<div class="card  p-3 mb-5 border-0  rounded text-center text-white" style="background:transparent;" >
+   	      				<i class="fa fa-search text-dark" aria-hidden="true" style="font-size:36px;margin:auto;background:white;border-radius:50%;width:100px;height:100px;text-align: center;line-height: 100px;vertical-align: middle;"></i>
+  
+  <div class="card-body"> <h4>Lorem, ipsum.</h4>
+    <p class="card-text">Some quick example text to build on the card title  Lorem, ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+  </div>
+</div>
+</div>
+<div class="col">
+<div class="card  p-3 mb-5 border-0  rounded text-center text-white" style="background:transparent;" >
+   <i class="fa fa-phone text-dark" aria-hidden="true" style="font-size:36px;margin:auto;background:white;border-radius:50%;width:100px;height:100px;text-align: center;line-height: 100px;vertical-align: middle;"></i>
+  <div class="card-body"> <h4>Lorem, ipsum.</h4>
+    <p class="card-text">Some quick example text to build on the card title Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  </div>
+</div>
+</div>
+<div class="col">
+<div class="card text-center p-3 mb-5 border-0 rounded text-center text-white" style="background:transparent;">
+	<i class="fa fa-user text-dark" aria-hidden="true" style="font-size:36px;margin:auto;background:white;border-radius:50%;width:100px;height:100px;text-align: center;line-height: 100px;vertical-align: middle;"></i>
+  
+  <div class="card-body"> <h4>Lorem, ipsum.</h4>
+    <p class="card-text">Some quick example text to build on the card title  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            
+                 <div class="container">
+                 	<div class="row justify-content-center align-items-center">
+                 		<div class="col-8  justify-content-center align-items-center text-center pt-5 ">
+                 			<h1> The Amazing Team </h1>
+                 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, temporibus hic quibusdam, eius ipsam sint.</p>
+                 		</div>
+                 		<div class="col-12 justify-content-center align-items-center text-center p-3">
+                 			<div class="row">
+                 				<div class="col">
+                 			<div class="card  p-2 mb-5 bg-body border-0 rounded" >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdZ109anNDpC4xoF1szpMXH4kT_e7slmt2g&usqp=CAU" class="card-img-top" alt="..." style="width:200px;height:200px;padding:30px;border-radius:50%;">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text </p>
+     <i class="fa fa-twitter text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-facebook text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-instagram text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card  p-2 mb-5 bg-body  border-0 rounded" >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvPINHB_74UIBWyQl8hDYP5tRsizlaR_qMw&usqp=CAU" class="card-img-top" alt="..." style="width:200px;height:200px;padding:30px;border-radius:50%;">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text </p>
+  
+    <i class="fa fa-twitter text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-facebook text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-instagram text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+    </div>
+    </div>
+</div>
+     <div class="col">
+    <div class="card  p-2 mb-5 bg-body border-0 rounded" >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOka6un3arRzmBq7NL8zZuiHlRpn5_wfuJ5Xp1U6t6PCZYJaNdVNuYjuSdqX8ycqcWPoA&usqp=CAU" class="card-img-top" alt="..." style="width:200px;height:200px;padding:30px;border-radius:50%;">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text </p>
+  
+    <i class="fa fa-twitter text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-facebook text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-instagram text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card  p-2 mb-5 bg-body border-0 rounded" >
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ByLaQ9gxCEfu8_xyR2ta4JYsy7xntkV43kGSObmttkvPWJSwZNe3wGLu5ATWKnOYqZE&usqp=CAU" alt="..." style="width:200px;height:200px;padding:30px;border-radius:50%;">
+  <div class="card-body"> <h6>Lorem, ipsum.</h6>
+    <p class="card-text">Some quick example text </p>
+  
+  <i class="fa fa-twitter text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-facebook text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-instagram text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:50%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+   </div>
+
+   <div class="container-flex bg-light">
+   	  <div class="row p-5 justify-content-center align-items-center ">
+   	  	<div class="col-8 justify-content-center align-items-center text-center">
+   	  	<h1> Most Visited Placeso </h1>
+   	  		<p> Browse The Most Desirable Catogaries </p>
+   	                </div>
+   	       
+   	         <div class="col-10 justify-content-center align-items-center text-center m-3">
+   	         	<div class="row col justify-content-center align-items-center text-center">
+   	         		<div class="col " >
+   	<div class="card shadow text-start p-2 " style="max-width: 20rem;max-height:30rem;">
+  <img src="https://media-cdn.tripadvisor.com/media/photo-s/13/9f/39/d1/cape-view-clifton.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  	<h5>Lorem, ipsum. Lorem, ipsum, dolor.</h5>
+  	<p> feiday 27 </p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Lorem, ipsum dolor sit amet, consectetur adipisicing.</p>
+    <input class="btn btn-primary" type="submit" value="Submit">
+  </div>
+</div>
+</div>
+	<div class="col">
+<div class="card shadow text-start p-2" style="max-width: 20rem;max-height:30rem;">
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/66/1f/75/hotel-facade.jpg?w=900&h=-1&s=1" class="card-img-top" alt="...">
+  <div class="card-body">
+  	<h5>Lorem, ipsum. Lorem, ipsum dolor.</h5>
+  	<p> feiday 27 </p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing.		</p>
+    <input class="btn btn-primary" type="submit" value="Submit">
+  </div>
+</div>
+</div>
+<div class="col">
+	<div class="card shadow text-start p-2" style="max-width: 20rem;max-height:30rem;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Balcony_View.jpg/1200px-Balcony_View.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  	<h5>Lorem, ipsum. Lorem ipsum, dolor.</h5>
+  	<p> feiday 27 </p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit, amet, consectetur adipisicing.</p>
+    <input class="btn btn-primary" type="submit" value="Submit">
+  </div>
+</div>
+
+</div>
+</div>
+</div>	
+</div>
+</div>
+<div class="container-flex text-white" style="background:hsl(225deg 99% 43%);">
+
+	<div class="row justify-content-center align-items-center p-5">
+		<div class="col-4   align-self-start">
+			<h1><a class="navbar-brand text-white" href="#"><i class="fa fa-bug" aria-hidden="true"> Navbar scroll </i></a></h1>
+			<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum adipisci quas minima? Quas, labore nulla, officiis consequatur incidunt, accusamus corporis est explicabo ipsum nemo doloremque quam ad! Facilis beatae velit, 
+			</p> <br>
+			<p>12345676@ loindjnn kldjj <br>
+			phone 739947873993 <br>
+			Email kjdjk@gmail.com</p>
+			<i class="fa fa-twitter text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:10%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-facebook text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:10%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-instagram text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:10%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+  <i class="fa fa-etsy text-white" aria-hidden="true" style="margin:auto;background:black;border-radius:10%;width:30px;height:30px;text-align: center;line-height: 30px;vertical-align: middle;"></i>
+			
+
+		</div>
+		<div class="col-3  p-auto align-self-start ">
+			<p> > LOGIN </p>
+			<p> > SIGNUP </p>
+			<p> > FORGETPASSWORD </p>
+			<p> > ADD LISTNING </p>
+			<p> > PRICING </p>
+			<p> > ABOUT </p>
+			
+		</div>
+		<div class="col-3  align-self-start p-auto ">
+			<p> > Profit </p>
+			<p> > Blog </p>
+			<p> > Invoice </p>
+			<p> > Booking </p>
+			<p> > Contact </p>
+			<p> > Contact </p>
+
+		</div>
+	</div>
+  <hr>
+  <div class="row justify-content-center align-items-center">
+    <div class="col-6 text-center">
+    <p> &#169;  &#174;  All Rights reserved </p>
+
+      
+    </div>
+  </div>
+	</div>
+</body>
+</html>
